@@ -1,0 +1,25 @@
+console.log(3 > 2)
+console.log(3 >= 2)
+console.log(3 < 2)
+console.log(2 < 3)
+console.log(2 <= 3)
+console.log(3 == 2)
+console.log(3 != 2)
+console.log(3 == '3')
+console.log(3 === '3')
+console.log(3 !== '3')
+console.log(3 != 3)
+console.log(3 !== 3)
+console.log(0 == false)
+console.log(0 === false)
+console.log(0 == '')
+console.log(0 == ' ')
+console.log(0 === '')
+console.log(1 == true)
+console.log(1 === true)
+
+
+let str = "30 days of javascript "
+
+console.log(str.includes("days"))
+console.log(5==5)

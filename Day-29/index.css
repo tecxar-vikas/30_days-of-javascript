@@ -1,0 +1,51 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+.style_word {
+    font-size: 64px;
+    letter-spacing: 12px
+}
+
+.space {
+    line-height: 94px;
+}
+
+.space::after {
+    content: "30 DAYS OF JAVASCRIPT CHALLENGE 2023 VIKAS KATESHIYA";
+    animation: changecontent 20s ease-in-out infinite
+}
+
+
+@keyframes changecontent {
+    0% {
+        color: rgb(216, 65, 120);
+        font-weight: 500;
+
+    }
+
+    25% {
+        color: red;
+        font-weight: 700;
+
+    }
+
+    50% {
+        color: rgb(63, 230, 8);
+        font-weight: 600;
+    }
+
+    75% {
+        color: rgb(11, 14, 216);
+        font-weight: 850;
+    }
+
+    100% {
+        color: rgb(216, 65, 120);
+        font-weight: 700;
+    }
+
+}

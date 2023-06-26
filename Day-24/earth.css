@@ -1,0 +1,31 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+.center {
+    text-align: center;
+}
+
+.img {
+    background-image: url('image/Ozs.gif');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.main {
+    min-height: 100vh;
+}
+#bold{
+    font-size: 40px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 600;
+}
+.error{
+    color: red;
+    font-size: 30px;
+    text-align: center;
+    margin-top: 32px;
+}

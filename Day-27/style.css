@@ -1,0 +1,57 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.world {
+    letter-spacing: 12px;
+}
+
+.header {
+    background-color: rgb(249, 181, 192);
+}
+
+.contant {
+    border-radius: 15px;
+    min-height: 22vh;
+    width: 100%;
+}
+
+.contant:hover {
+    background-color: rgba(237, 208, 171, .5) !important;
+    transform: scale(1.05);
+    box-shadow: 2px 2px 0px green;
+}
+
+.change_conatant::before {
+    content: "";
+    animation: change 8s ease-in-out infinite
+}
+
+@keyframes change {
+    10% {
+        content: "HTML";
+        color: rgb(165, 75, 75);
+    }
+
+    25% {
+        content: "CSS";
+        color: blue;
+    }
+
+    50% {
+        content: "JAVASCRIPT";
+        color: yellow;
+    }
+
+    75% {
+        content: "REACT";
+        color: blueviolet;
+    }
+
+    100% {
+        content: "NODE.JS";
+        color: aqua;
+    }
+}
